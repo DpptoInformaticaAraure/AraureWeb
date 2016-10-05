@@ -1620,47 +1620,4 @@ blockquote {
 .form-group:last-child,
 .form-group:last-child input {
   margin: 0;
-}   
-
-
-/* .edicion {
-    width:300px;
-    height:200px;
-    position: relative;
-	padding: 0;
-	margin: 0;
-	text-align: center;
 }
-
-.edicion-image{
-	cursor:pointer;
-	position: relative;
-	display: block;
-}
-
-.edicion-text{
-    position: absolute;
-    top: 0; right: 0;
-    bottom: 0; left: 0;
-    width: 300px;
-    height: 200px; 
-    text-align: center;
-    background-color: rgba(0,0,0,0.8);
-    opacity: 0;
-    -webkit-transition: opacity 0.6s;
-    -moz-transition: opacity 0.6s;
-    transition: opacity 0.6s;
-    vertical-align:middle;
-    line-height:200px;
-}
-
-.edicion-text:hover{
-    opacity: 1;      
-}
-
-.edicion-text h3{
-	color: white;
-	display: inline-table;
-	vertical-align:middle;
-	line-height:100%;            
-}      */
