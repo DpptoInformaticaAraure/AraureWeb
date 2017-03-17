@@ -959,12 +959,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .owl-controls .owl-page span {
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 4px solid #7B6955;
     border-radius: 50px;
     display: block;
-    height: 13px;
+    height: 20px;
     margin: 0 4px;
-    width: 13px;
+    width: 80px;
     opacity: 1;
     filter: alpha(opacity=100);
 }
