@@ -1627,13 +1627,13 @@ blockquote {
 .popup {
     background-color: #ffffff;
     color: #888888;
-    height: 680px;
+    height: 615px;
     left: 0%;
-    padding: 20px;
+    padding: 12px;
     position: fixed;
     right: 0%;
-    top: 5%;
-    width: 1050px;
+    top: 6%;
+    width: 425px;
     z-index: 101;
     -moz-box-shadow: 0px 0px 10px 1px #888888;
     -webkit-box-shadow: 0px 0px 10px 1px #888888;
@@ -1658,8 +1658,8 @@ a.close {
     cursor: pointer;
     float: right;
     height: 26px;
-    left: 32px;
+    left: 30px;
     position: relative;
-    top: -33px;
+    top: -28px;
     width: 26px;
 }
