@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Alcaldia de Araure</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png"> 
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/img/manifest.json">
+        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="img/favicon/favicon.ico">
+        <meta name="msapplication-config" content="/img/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Favicon -->
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+
+        <!-- Slider Avisos -->
+        <link rel="stylesheet" href="css/flexslider-min.css">
+        <!-- /Slider Avisos -->
+        <!-- Main -->
+        <link rel="stylesheet" href="css/tooplate-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+      <body id="body">
+		
+		<div id="popup" class="popup" style="display: block; left: 15%; position: fixed;">
+    		<a onclick="closeDialog('popup');" class="close"></a>
+    		<div>
+        		<img src="img/7.jpg" width="950" height="500">
+    		</div>
+		</div>
+
+   
+        <!-- Banner -->
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand scroll-top">
+                        <IMG src="./img/alcaldia.png" width="130" height="76"/>
+                        </a>
+                    </div>
+                    <!--/.navbar-header-->
+                    <div id="main-nav" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            
+                            <li><a href="#" class="scroll-top">Inicio</a></li>
+                            <li><a href="#" class="scroll-link" data-id="about">Nosotros</a></li>
+                            <li><a href="#" class="scroll-link" data-id="team">Linea de Mando</a></li>
+                            <li><a href="#" class="scroll-link" data-id="portfolio">Galeria</a></li>
+                            <li><a href="#" class="scroll-link" data-id="blog">Noticias</a></li>
+                            <li><a href="#" class="scroll-link" data-id="services">Trámites y Servicios</a></li>
+                            <li><a href="#" class="scroll-link" data-id="what-we-do">Avisos</a></li>
+                            <li><a href="#" class="scroll-link" data-id="contact">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <!--/.navbar-collapse-->
+                </nav>
+                <!--/.navbar-->
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.Banner -->
+
+
+
+        <!-- Slider Principal-->
+        <section class="cd-hero">
+            <ul class="cd-hero-slider autoplay">  
+            <!-- 
+                <ul class="cd-hero-slider autoplay"> for slider auto play 
+                <ul class="cd-hero-slider"> for disabled auto play
+            -->
+                <li class="selected first-slide">
+                    <div class="cd-full-width">
+                        <div class="tm-slide-content-div slide-caption">
+                            <!--<span>Introduction to</span>-->
+                           <h2>Un Gobierno para Todos</h2>
+                            <!--<p>A</p>-->
+                            <div class="primary-button">
+                                <a href="#" class="scroll-link" data-id="about">Mas Detalles</a>
+                            </div>                           
+                        </div>                   
+                    </div> <!-- .cd-full-width -->
+                </li>
+
+                <li class="second-slide">
+                    <div class="cd-full-width">
+                        <div class="tm-slide-content-div slide-caption">
+                            <!--<span>We Are Perfect Staffs</span>-->
+                            <h2>REALIZA TU PAGO EN LINEA</h2>
+                            <!--<a href="http://www.alcaldiadearaure.gob.ve:81/pagosAraure/inicio"><button class="btn btn-large waves">PAGO EN LINEA</button></a>-->
+                            <p>Realice su pago de Impuestos Municipales desde la comodidad de su hogar, oficina o dispositivo movil </p>
+                            <div class="primary-button">
+                               <a href="http://www.alcaldiadearaure.gob.ve:81/pagosAraure/inicio">PAGO EN LINEA</a>
+                            </div>                        
+                        </div>                     
+                    </div> <!-- .cd-full-width -->
+                </li>
+
+                <li class="third-slide">
+                    <div class="cd-full-width">
+                        <div class="tm-slide-content-div slide-caption">
+                            <span>Ahora podras realizar</span>
+                            <h2>TRAMITES  DE REGISTRO CIVIL VIA WEB</h2>
+                            <p>Comprometidos con nuestro Municipio.</p>
+                            <div class="primary-button">
+                                <a href="#">Mas Detalles</a>
+                            </div>                           
+                        </div>                         
+                    </div> <!-- .cd-full-width -->
+                </li>
+            </ul> <!-- .cd-hero-slider -->
+
+            <div class="cd-slider-nav">
+                <nav>
+                    <span class="cd-marker item-1"></span>
+                    
+                    <ul>
+                        <li class="selected"><a href="#0"></a></li>
+                        <li><a href="#0"></a></li>
+                        <li><a href="#0"></a></li>                        
+                    </ul>
+                </nav> 
+            </div> <!-- .cd-slider-nav -->
+        </section> <!--/.cd-hero -->
+
+        <!-- Seccion Acerca De -->
+        <div id="about" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>Nosotros:</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service-item first-service">
+                            <div class="icon"></div>
+                            <h4>Mision:</h4>
+                            <p>Llevar a cabo los procesos de formulacion, análisis, evaluación y control de la aplicación de las políticas públicas, con una excelente gerencia y administracion, que satisfagan las demandas, y logre el alcance de crecimiento, mejora de la gestion impulsada en el Municipio, y se vincule con los procesos de cambios y transformaciones en la aplicación del socialismo del siglo XXI.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service-item second-service">
+                            <div class="icon"></div>
+                            <h4>Visión:</h4>
+                            <p>Conducirse como una Institucion de Calidad, Eficiente, Oportuna, Integradora; Para hacer mas óptima la gestión pública del Alcalde, cumplir todas sus metas y producir resultados operativos ajustado a la exigencia de las distintas dependencias tanto intra como extra institucional, para el cabal cumplimiento de sus declarados fines.
+                         </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service-item third-service">
+                            <div class="icon"></div>
+                            <h4>Historia</h4>
+                            <p>Como la villa de San Carlos de Austria quedaba a más de veinte leguas del punto donde querían asentarse los misioneros de la zona escogida, la Villa de Nuestra Señora del Pilar de Zaragoza de Araure, surge a consecuencia de la necesidad que tenían de proveerse de escoltas para que los acompañaran en sus desplazamientos y en sus recorridos evangelizadores. Durante un viaje que hace a España el misionero capuchino, fray Ildefonso de Zaragoza, en 1692</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service-item fourth-service">
+                            <div class="icon"></div>
+                            <h4>Nuestro Municipio</h4>
+                            <p>Potencial Turistico, Empresarial, Cultura, tradiciones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Seccion Acerca De -->
+
+        <!-- Slider de Avisos -->  
+        <div id="what-we-do" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>Avisos Importantes:</h4>
+                            <p>Información Institucional</p>
+                            <div class="line-dec"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="flexslider left">
+                            <ul class="slides">
+                                <li> <!-- Slide 1 -->
+                                    <img src="./img/Avisos_importantes/aviso1.jpg">
+                                    <div class="meta">
+                                       <!-- <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                    </div>
+                                </li>
+                                <li> <!-- Slide 2 -->
+                                    <img src="./img/Avisos_importantes/aviso3.png">
+                                    <div class="meta">
+                                        <!--<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                    </div>
+                                </li>
+                                <li> <!-- Slide 3 -->
+                                    <img src="./img/Avisos_importantes/hacienda.jpg">
+                                    <div class="meta">
+                                       <!-- <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                    </div>
+                                </li>
+                                <li> <!-- Slide 4 -->
+                                    <img src="./img/Avisos_importantes/aviso3.png">
+                                    <div class="meta">
+                                       <!-- <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide de Avisos -->
+
+        <!-- Galeria -->
+        <div id="portfolio" class="page-section">
+            <div class="content-wrapper">
+                <div class="inner-container container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-heading">
+                                <h4>Galeria de Imagenes</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-holder-3">
+                        <div class="filter-categories">
+                            <ul class="project-filter">
+                                <li class="filter" data-filter="all"><span>Todo</span></li>
+                                <li class="filter" data-filter="nature"><span>Atencion Social</span></li>
+                                <li class="filter" data-filter="workspace"><span>Infraestructura</span></li>
+                                <li class="filter" data-filter="city"><span>Deporte</span></li>
+                                <li class="filter" data-filter="technology"><span>Gobierno de Calle</span></li>
+                            </ul>
+                        </div>
+                        <div class="projects-holder">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 project-item mix workspace">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/01.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_01.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix workspace">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/02.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_02.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix technology">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/03.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_03.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix city">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/04.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_04.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix nature">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/05.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_05.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix technology">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/06.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_06.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix workspace">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/07.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_07.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 project-item mix city">
+                                  <div class="thumb">
+                                      <div class="image">
+                                        <img src="img/portfolio/08.jpg">
+                                      </div>
+                                      <div class="hover-effect">
+                                        <a href="img/portfolio/big_08.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Galeria -->
+
+        <!-- Seccion de Noticias -->
+        <div id="blog" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                           <center> <h4>Últimas Noticias</h4><center/>
+
+                        </div>
+                     </div>
+                </div>
+                <div class="row">
+                    <div class="wrapper">
+                        <div class="col-md-6">
+                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                                <li><a href="#tab1" class="active">Con apoyo de Primitivo Cedeño,
+                                    Villa Araure celebra sus 50 años con acto en la plaza Bolívar del sector  
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                        <li><i class="fa fa-calendar"></i>Junio 2018</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab2">
+                                    Impulsada por el Alcalde Primitivo Cedeño,
+                                    Continúa desarrollo de La Galería-Taller Itineraria en Escuela “Carlos Alberto Pelayo” 
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Prensa Alcaldia de Araure/</li>
+                                        <li><i class="fa fa-calendar"></i>28 de Junio 2018</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab3">
+                                   En Terrazas de San José, Primitivo Cedeño da respuestas a planteamientos durante gobierno de calle 
+                                      <ul class="info-post">
+                                       <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                       <li><i class="fa fa-calendar"></i>Junio 2018</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab4">Alcalde Cedeño promueve masificación cultural a través de cine-foros en las comunidades   
+                                      <ul class="info-post">   
+                                        <li><i class="fa fa-user"></i>Prensa Alcaldía/</li>
+                                        <li><i class="fa fa-calendar"></i>Junio 2018</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab5">
+                                   Mediante recorrido, Un gobierno para todos llegó a Baraure 
+                                      <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                        <li><i class="fa fa-calendar"></i>21 Junio 2018</li>
+                                    </ul>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="first-tab-group" class="tabgroup">
+                                <div id="tab1">
+                                    <div class="figure">
+                                <img src="img/fotonoticias/v50/1.jpg"  alt="3D Beach Art | Meghna ">
+                           </div>
+                                    <div class="text-content">
+                                        <h4>Con apoyo de Primitivo Cedeño, Villa Araure celebra sus 50 años con acto en la plaza Bolívar del sector</h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                            <li><i class="fa fa-calendar"></i>Junio 2018</li>
+                                        </ul>
+                                        <p align="justify">En ocasión de la celebración de los 50 años de fundación de Villa Araure, el Alcalde Primitivo Cedeño dispuso mejorar el aspecto físico de la plaza Bolívar de este urbanismo por petición especial de su dirigencia comunitaria.</p>
+                                        <div class="primary-button"><a href="Nota_1.html">Continuar Leyendo</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab2">
+                                    <img src="img/fotonoticias/Cap/1.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>Impulsada por el Alcalde Primitivo Cedeño, <strong>Continúa desarrollo de La Galería-Taller Itineraria en Escuela “Carlos Alberto Pelayo”</strong></h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Prensa Alcaldia de Araure</li>
+                                            <li><i class="fa fa-calendar"></i>28 de Junio 2018</li>
+                                        </ul>
+                                        <p align="justify">El Alcalde Primitivo Cedeño continúa impulsando el desarrollo cultural en instituciones educativas y comunidades del municipio Araure a través de exposiciones de obras de artistas locales y conferencias dirigidas a resaltar el hecho cultural como elemento primordial de la formación humana. </p>
+                                        <div class="primary-button"><a href="Nota_2.html">Continuar Leyendo</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab3">
+                                    <img src="img/fotonoticias/TSnJ/1.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>Terrazas de San José, Primitivo Cedeño da respuestas a planteamientos durante gobierno de calle </h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                            <li><i class="fa fa-calendar"></i>Junio 2018</li>
+                                        </ul>
+                                        <p align="justify">Como saldo de la jornada del Gobierno de calle iniciada por el Alcalde Primitivo Cedeño, se comenzó a darle respuestas oportunas a los diferentes planteamientos hechos por los voceros de las comunidades visitadas, las cuales fueron debidamente tomadas en cuenta por la primera autoridad municipal a fin de proporcionarles las soluciones correspondientes. 
+                                        </p>
+                                        <div class="primary-button"><a href="Nota_3.html">Continuar Leyendo</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab4">
+                                    <img src="img/fotonoticias/cf/2.jpg"
+                                    .jpg" alt="">
+                                    <div class="text-content">
+                                      <h4>Alcalde Cedeño<blockquote> promueve masificación cultural a través de cine-foros en las comunidades </blockquote> </h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                            <li><i class="fa fa-calendar"></i>Abril 2018</li>
+                                        </ul>
+                                        <p align="justify"> En la continuidad del programa de desarrollo y masificación cultural “Pueblo y arte. Cultura para todos, Araure 2018”, establecido por el gobierno del Alcalde Primitivo Cedeño para elevar la potencialidad del pueblo araureño en esta importante materia, se realizó un cine foro con estudiantes de secundaria de la parroquia Río Acarigua. </p>
+                                        <div class="primary-button"><a href="Nota_4.html">Continuar Leyendo</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab5">
+                                    <img src="img/fotonoticias/GCB/1.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>Mediante recorrido, Un gobierno para todos llegó a Baraure </h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Prensa Alcaldia</li>
+                                            <li><i class="fa fa-calendar"></i>Junio 2018</li>
+                                        </ul>
+                                        <p align="justify">En el marco de la tercera fase de Un Gobierno para Todos en la Calle, el Alcalde Cedeño inició un recorrido en el sector de Baraure y Terrazas de San José, acompañado de la Directora regional de Ambiente, Australia Amundarain, los concejales Nancy Vizcaya y Wilmer López, así como de dirigentes comunitarios, con la intención de verificar y de atender de manera personal las diferentes necesidades allí existentes.</p>
+                                        <div class="primary-button"><a href="Nota_5.html">Continuar Leyendo</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Secion de Noticias -->
+        
+        <!-- Seccion para Las Redes Sociales -->
+         <!--<div id="fun-facts" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading">
+                        <h4>Our Amazing Team</h4>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="line-dec"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="fact-item">
+                            <div class="counter" data-count="926">0</div>
+                            <span>Regular Visitors</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="fact-item">
+                            <div class="counter" data-count="214">0</div>
+                            <span>Finished Projects</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="fact-item">
+                            <div class="counter" data-count="118">0</div>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="fact-item">
+                            <div class="counter" data-count="16">0</div>
+                            <span>Total Awards</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>-->
+        <!-- Seccion para Las Redes Sociales -->
+
+		
+		
+		
+		
+		
+				
+		<!-- Start Services Section
+		==================================== -->
+		
+		<section id="services" class="bg-one">
+			<div class="container">
+				<div class="row">
+					
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2>Nuestros <span class="color">Servicios</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+                    <!-- Single Service Item -->
+					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<a href="tramites.html"><i class="fa fa-edit fa-5x"></i></a>
+							</div>
+							<a href="tramites.html"><h3>Trámites</h3></a>
+							<h5>Todos Nuestros Requisitos:</h5>
+						<p align="justify">Realizar directamente cualquiera de los servicios que prestamos en nuestro municipio. Agilizar los tramites que necesitas, al hacerlo desde la comodidad de tu hogar..</p>
+						</div>
+					</article>
+                    <!-- End Single Service Item -->
+                    
+                    <!-- Single Service Item -->
+					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<a href="http://alcaldiadearaure.gob.ve:81/pagosAraure/inicio"><i class="fa fa-desktop fa-5x"></i></a>
+							</div>
+							<a href="http://www.alcaldiadearaure.gob.ve:81/pagosAraure/inicio"><h3>Pago En Linea</h3></a>
+							<h5>Te Da La Oportunidad De:</h5>
+						<p align="justify">Realizar los pagos desde su hogar en nuestros servidores, Terceras personas, no manejan información privada del cliente, ya que el número de la tarjeta se introduce directamente.</p>
+						</div>
+					</article>
+                    <!-- End Single Service Item -->
+                    
+                    <!-- Single Service Item -->
+					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<a href="#"><i class="fa fa-calendar -square fa-5x"></i></a>
+							</div>
+							<a href="#"><h3>Nuestro Calendario</h3></a>
+
+							<h5>Calendario de Trabajo:</h5>
+						<p align="justify">Seguir nuestra actividades diarias. Estar enterado y hacer seguimiento de la gestión de Gobiernoi</p>
+
+						<!--<ul>
+						</div>
+					</article>
+					<! End Single Service Item -->
+					
+					<!-- Single Service Item 
+					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<i class="fa fa-eye fa-5x"></i>
+							</div>
+							<h3>Graphic Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</article>
+					<! End Single Service Item 
+					
+					<! Single Service Item 
+					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<i class="fa fa-android fa-5x"></i>
+							</div>
+							<h3>Apps Development</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</article>
+					<! End Single Service Item 
+					
+					<! Single Service Item
+					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="service-block text-center kill-margin-bottom">
+							<div class="service-icon text-center">
+								<i class="fa fa-link fa-5x"></i>
+							</div>
+							<h3>Networking</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</article>
+					 End Single Service Item -->
+						
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+		
+		
+		
+		
+		
+		
+		
+        <!-- Seccion de Equipo -->
+        <div id="team" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading">
+                        <h4>Linea de Mando</h4>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p> -->
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <a href="linea_mando_1.html"> <img class="rounded-circle" img src="img/team/1.jpg"></a>
+                            <h4>Nicolas Maduro Moros</h4>
+                            <p>Presidente de la Republica Bolivariana de Venezuela</p>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="https://twitter.com/nicolasmaduro?lang=es"><i class="fa fa-twitter"></i></a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/nicolasmaduro"><i class="fa fa-facebook"></i></a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/nicolasmaduro/"><i class="fa fa-instagram"></i></a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <a href="linea_mando_2.html"> <img class="rounded-circle" img src="img/team/2.jpg"></a>
+                            <h4>Rafael Calles</h4>
+                            <p class="text-muted">Gobernador Bolivariano del Estado Portuguesa</p>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="https://twitter.com/rafaelcalles?lang=es"><i class="fa fa-twitter"></i></a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/RafaelCallesPortuguesa"><i class="fa fa-facebook"></i></a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/rafaelcallesportuguesa/"><i class="fa fa-instagram"></i></a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <a href="linea_mando_3.html"> <img class="rounded-circle" img src="img/team/3.jpg"></a>
+                            <h4>Antonio Primitivo Cedeño</h4>
+                            <p class="text-muted">Alcalde Bolivariano del Municipio Araure</p>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="https://twitter.com/VamosPrimitivo?lang=es"><i class="fa fa-twitter"></i></a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/AntonioPrimitivoCedeno"><i class="fa fa-facebook"></i></a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/primitivocedeno/"><i class="fa fa-instagram"></i></a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               <!-- <div class="row">
+                    <div class="col-md-12 text-center section-bottom">
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    </div>
+                </div>-->
+            </div>        
+        </div>
+        <!-- Seccion de Equipo -->
+
+        <!-- Seccion de Contacto -->
+        <div id="contact" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>Contactanos:</h4>
+                            <div class="info section-heading">
+                                <ul class="list-inline text-center">
+                                <li><a href="#"><i class="fa fa-envelope"></i>alcaldiadelmunicipioaraure@gmail.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i>0255-6652430 / 02556652837</a></li>
+                            </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.9839243900026!2d-69.21965215772134!3d9.5696753846579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7dc1a3bf4a2481%3A0x5819d16ff7cd876c!2sAlcald%C3%ADa+del+Municipio+Araure!5e0!3m2!1ses-419!2sve!4v1517260383934" width="100%" height="395" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                          <form id="contact" action="" method="post">
+                            <div class="col-md-6">
+                              <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Nombres y Apellidos..." required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                              <fieldset>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Comunidad / Sector:..." required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                  <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Numero de Cedula..." required="">
+
+                                  </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                  <fieldset>
+                                    <input name="phone" type="phone" class="form-control" id="phone" placeholder="Numero Telefonico..." required="">
+                                  </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Escriba su Mensaje..." required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="btn">Enviar Mensaje</button>
+                              </fieldset>
+                            </div>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Seccion de Contacto -->
+
+        <!-- Pie de Pagina -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="copyright-text">
+                            <p>Derechos Reservados &copy; 2018 Desarrollado por la Jefatura de Informatica de la Alcaldia Bolivariana de Araure 
+                    </footer>
+        <!-- Pie de Pagina -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+        <!-- Slider Avisos -->
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js'></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <!-- /Slider Avisos -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            // navigation click actions 
+            $('.scroll-link').on('click', function(event){
+                event.preventDefault();
+                var sectionID = $(this).attr("data-id");
+                scrollToID('#' + sectionID, 750);
+            });
+            // scroll to top action
+            $('.scroll-top').on('click', function(event) {
+                event.preventDefault();
+                $('html, body').animate({scrollTop:0}, 'slow');         
+            });
+            // mobile nav toggle
+            $('#nav-toggle').on('click', function (event) {
+                event.preventDefault();
+                $('#main-nav').toggleClass("open");
+            });
+        });
+        // scroll function
+        function scrollToID(id, speed){
+            var offSet = 50;
+            var targetOffset = $(id).offset().top - offSet;
+            var mainNav = $('#main-nav');
+            $('html,body').animate({scrollTop:targetOffset}, speed);
+            if (mainNav.hasClass("open")) {
+                mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+                mainNav.removeClass("open");
+            }
+        }
+        if (typeof console === "undefined") {
+            console = {
+                log: function() { }
+            };
+        }
+        </script>
+    </body>
+</html>
