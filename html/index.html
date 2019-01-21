@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/fontAwesome.css">
         <link rel="stylesheet" href="css/hero-slider.css">
-
+       <!-- <link rel="stylesheet" href="css/main.css">-->
         <!-- Slider Avisos -->
         <link rel="stylesheet" href="css/flexslider-min.css">
         <!-- /Slider Avisos -->
@@ -65,6 +65,28 @@
                             <li><a href="#" class="scroll-link" data-id="what-we-do">Avisos</a></li>
                             <li><a href="#" class="scroll-link" data-id="contact">Contacto</a></li>
                         </ul>
+
+                         <!--VENTANA EMERGENTE AQUI -->
+                        <script type="text/javascript">
+                          function closeDialog(id) {
+                          $('#'+id).css('position','absolute');
+                          $('#'+id).animate({'left':'-100%'}, 500, function() {
+                          $('#'+id).css('position','fixed');
+                          $('#'+id).css('left','100%');
+                          $('#overlay').fadeOut('fast');
+                          }); 
+                          }  
+                         </script>
+                         <!--Colocar Aviso -->
+                   <!--    <div id="popup" class="popup" style="display: block; left: 32%; position: fixed;">-->
+                       <!--   <a onclick="closeDialog('popup');" class="close"></a>-->
+                      <!--   <img src="./img/Avisos_importantes/decreto2.png" width="600" height="720"/>-->
+                      <!--  <div>-->
+                            <!-- PARA CORRER VIDEO-->
+                            <!--  <video width="640" height="360" controls autoplay>
+                                <source src="./img/Avisos_importantes/videos/1.webm" type="video/webm"> 
+                                </video>
+                                </div>-->
                     </div>
                     <!--/.navbar-collapse-->
                 </nav>
