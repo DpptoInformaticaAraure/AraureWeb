@@ -36,6 +36,12 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
     padding: 70px 0;
 }
 
+.escudo{
+	float: right;
+	padding: 5px 5px;
+
+}
+
 .icon-box {
 	position: relative;
 	width: 160px; 
