@@ -69,11 +69,6 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 			transition-property: transform;
 }
 
-.escudo{
-	float: left;
-	padding: 10px 5px;
-}
-
 .icon-box:hover {
 	-webkit-transform: translateY(-10px);
 	   -moz-transform: translateY(-10px);
