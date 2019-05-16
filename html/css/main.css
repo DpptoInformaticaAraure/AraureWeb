@@ -33,7 +33,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 ==================================================================*/
 
 #about {
-    padding: 70px 0;
+	padding: 70px 0;
 }
 
 .escudo{
@@ -41,6 +41,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 	padding: 5px 5px;
 
 }
+
 
 .icon-box {
 	position: relative;
