@@ -183,13 +183,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 
 .service-block {
     padding: 50px 20px;
-    border-left: 1px solid #4e595f;
-    border-top: 1px solid #4e595f;
+   /* border-left: 1px solid #4e595f;
+    border-top: 1px solid #4e595f;*/
     margin-bottom: 40px;*
 	
-	-webkit-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+/*-webkit-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
 	   -moz-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
-			box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+			box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);*/
 }
 
 .service-icon {

@@ -22,7 +22,7 @@
 		<!-- bootstrap.min css -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
 		<!-- Animate.css -->
-        <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/animate.css">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -39,7 +39,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/fontAwesome.css">
         <link rel="stylesheet" href="css/hero-slider.css">
-		<link rel="stylesheet" href="css/main.css">
+     	<link rel="stylesheet" href="css/main.css">
         <!-- Slider Avisos -->
         <link rel="stylesheet" href="css/flexslider-min.css">
         <!-- /Slider Avisos -->
@@ -80,31 +80,59 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <href="#" class="navbar-brand scroll-top">
-                        <IMG src="./img/alcaldia.png" width="130" height="76"/>
+                        <a href="#" class="navbar-brand scroll-top">
+                        <IMG src="./img/alcaldia.png" width="130" height="76"  />
                         </a>
+
                     </div>
-                    <!--/.navbar-header-->
-                    <div id="main-nav" class="collapse navbar-collapse">
+					<div id="main-nav" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
                             
-                            <li><a href="index.html#scroll-top">Inicio</a></li>
-                            <li><a href="index.html#about">Nosotros</a></li>
-                            <li><a href="index.html#team">Linea de Mando</a></li>
-                            <li><a href="index.html#portfolio">Galeria</a></li>
-                            <li><a href="index.html#blog">Noticias</a></li>
-                            <li><a href="index.html#fun-facts">Tramites y Servicios</a></li>
-                            <li><a href="index.html#what-we-do">Avisos</a></li>
-                            <li><a href="index.html#contact">Contacto</a></li>
+                            <li><a href="#" class="scroll-top">Inicio</a></li>
+                            <li><a href="#" class="scroll-link" data-id="about">Nosotros</a></li>
+                            <li><a href="#" class="scroll-link" data-id="team">Linea de Mando</a></li>
+                            <li><a href="#" class="scroll-link" data-id="portfolio">Galeria</a></li>
+                            <li><a href="#" class="scroll-link" data-id="blog">Noticias</a></li>
+                            <li><a href="#" class="scroll-link" data-id="services">Trámites y Servicios</a></li>
+                            <li><a href="#" class="scroll-link" data-id="what-we-do">Avisos</a></li>
+                            <li><a href="#" class="scroll-link" data-id="contact">Contacto</a></li>
                         </ul>
-                    </div>
+
+                         <!--VENTANA EMERGENTE AQUI -->
+                        <script type="text/javascript">
+                          function closeDialog(id) {
+                          $('#'+id).css('position','absolute');
+                          $('#'+id).animate({'left':'-100%'}, 500, function() {
+                          $('#'+id).css('position','fixed');
+                          $('#'+id).css('left','100%');
+                          $('#overlay').fadeOut('fast');
+                          }); 
+                          }  
+                         </script>
+                         <!--Colocar Aviso -->
+                    <div id="popup"  class="popup hidden-xs" style="display: block; left: 28%; position: fixed;">
+                          <a onclick="closeDialog('popup');" class="close"></a>
+                            <!--  <img src="./img/Avisos_importantes/2019/registro.png" width="640" height="360"/> -->
+                      <div> 
+                          <!--  PARA CORRER VIDEO -->
+                           <video width="640" height="360" controls>
+                                <source src="./img/Avisos_importantes/videos/trabajo.webm" type="video/webm"> 
+                                </video>
+                                </div>
+                  </div>
                     <!--/.navbar-collapse-->
+
+                    <div class="hidden-xs hidden-md hidden-sm escudo ">
+                        <img src="./img/escudo.png" width="80" height="70" alt="">
+                    </div>
+
                 </nav>
                 <!--/.navbar-->
             </div>
             <!--/.container-->
         </div>
-		     
+        <!--/.Banner -->
+
         <!-- Start Blog Banner
         ==================================== -->
               <!-- responsive nav button -->
@@ -287,7 +315,7 @@
 
 						<!-- copyright -->
 						<div class="copyright text-center">
-							<img src="img/favicon/logoalcaldia.png" width="170" height="70.6"  /> <br />
+						
 							<p>Copyright © 2018 Alcaldia Del Municipio Araure – <a href="#"> DPTO.INFORMATICA.</a>.</p>
 						</div>
 						<!-- /copyright -->

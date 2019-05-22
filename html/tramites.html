@@ -83,6 +83,9 @@
                         <a href="#" class="navbar-brand scroll-top">
                            <IMG src="./img/alcaldia.png" width="130" height="76"/>
                         </a>
+					</div>
+					<div class="hidden-xs hidden-md hidden-sm escudo ">
+                        <img src="./img/escudo.png" width="80" height="70" alt="">
                     </div>
                     <!--/.navbar-header-->
                     <div id="main-nav" class="collapse navbar-collapse">
@@ -96,10 +99,23 @@
                             <li><a href="index.html#fun-facts">Tramites y Servicios</a></li>
                             <li><a href="index.html#what-we-do">Avisos</a></li>
                             <li><a href="index.html#contact">Contacto</a></li>
-                        </ul>
-                    </div>
-                    <!--/.navbar-collapse-->
-                </nav>
+						</ul>
+						<script type="text/javascript">
+							function closeDialog(id) {
+							$('#'+id).css('position','absolute');
+							$('#'+id).animate({'left':'-100%'}, 500, function() {
+							$('#'+id).css('position','fixed');
+							$('#'+id).css('left','100%');
+							$('#overlay').fadeOut('fast');
+							}); 
+							} 
+						</script>
+					</div>
+                
+					<!--/.navbar-collapse-->
+
+				</nav>
+				
                 <!--/.navbar-->
             </div>
             <!--/.container-->
@@ -134,7 +150,7 @@
 						<div class=" text-center">
 							<div class="service-icon text-center">
 						    </div>
-	                       <a href="documento/Hacienda/hacienda.pdf"><img src="./img/avatar/alcaldia.png" width="180px" height="130px" alt=""><h4>TRAMITES SERAMAT</h4></a> 							  
+	                       <a href="documento/Hacienda/hacienda.pdf"><img src="./img/avatar/seramat.png" width="210px" height="130px" alt=""><h4>TRAMITES SERAMAT</h4></a> 							  
 						</div>
 					</article>
 					<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"         data-wow-duration="500ms" >
@@ -167,7 +183,7 @@
 							 <div class="service-icon text-center">
 							 </div>
 							
-							  <a href="ordenanzas.html"><img src="./img/avatar/alcaldia.png" width="200px" height="150px" alt=""><h4>ORDENANZAS MUNICIPALES</h4></a> 
+							  <a href="ordenanzas.html"><img src="./img/avatar/seramat.png" width="200px" height="150px" alt=""><h4>ORDENANZAS MUNICIPALES</h4></a> 
 							    	         			
 					    </div>
 					</article>	
@@ -330,7 +346,7 @@
 
 						<!-- copyright -->
 						<div class="copyright text-center">
-							<img src="img/favicon/logoalcaldia.png" width="170" height="70.6"  /> <br />
+						
 							<p>Copyright © 2018 Alcaldia Del Municipio Araure – <a href="#"> DPTO.INFORMATICA.</a>.</p>
 						</div>
 						<!-- /copyright -->	
