@@ -56,6 +56,9 @@
                         <IMG src="./img/alcaldia.png" width="130" height="76"  />
                         </a>
                     </div>
+					<div class="hidden-xs hidden-md hidden-sm escudo ">
+                        <img src="./img/escudo.png" width="80" height="70" alt="">
+                    </div>
                     <!--/.navbar-header-->
                     <div id="main-nav" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
@@ -80,7 +83,7 @@
                           }
                          </script>
                          <!--Colocar Aviso -->
-           <div id="popup"  class="popup hidden-xs" style="display: block; left: 28%; position: fixed;">
+           <div id="popup"  class="popup hidden-xs hidden-sm" style="display: block; left: 28%; position: fixed;">
                           <a onclick="closeDialog('popup');" class="close"></a>
                     <!--<img src="./img/Avisos_importantes/2019/registro.png" width="640" height="360"/>-->
                     <div>
@@ -197,19 +200,99 @@
             </div>
         </div>
         <!-- Seccion Acerca De -->
+  <div id="popup"  class=" hidden-lg  hidden-md ">
+                    <!--<img src="./img/Avisos_importantes/2019/registro.png" width="640" height="360"/>-->
+                    <div>
+                      <!--PARA CORRER VIDEO-->
+                        <video width="100%" height="360" controls>
+                                <source src="./img/Avisos_importantes/videos/1.webm" type="video/webm"> 
+                                </video>
+                                </div>
+                  </div>
         <!-- Slider de Avisos -->
-        <div align="center" class="hidden-md hidden-sm hidden-lg"><img src="./img/escudo.png" width="300px" height="300px"></div>
-        <div id="what-we-do" class="page-section hidden-xs" >
-            <div class="container">
-                <div class="row">
+                        <div class="row">
                     <div class="col-md-12">
-                        <div class="hidden-xs section-heading">
-                            <h4>Avisos Importantes:</h4>
-                            <p>Información Institucional</p>
+                        <div class="hidden-md hidden-sm hidden-lg section-heading">
+                            <h4>Nuestro Escudo:</h4>
+                            <p align="center">Información Institucional</p>
                             <div class="line-dec"></div>
                         </div>
                     </div>
-                          <div class="col-md-12 hidden-xs">
+        <div align="center" class="hidden-md hidden-sm hidden-lg"><img src="./img/escudo.png" width="300px" height="300px"></div>
+        <div id="what-we-do" class="page-section hidden-xs hidden-sm" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hidden-xs hidden-sm section-heading">
+                            <h4>Avisos Importantes:</h4>
+                            <p align="center">Información Institucional</p>
+                            <div class="line-dec"></div>
+                 
+                        </div>
+                    </div>
+                          <div class="col-md-12 hidden-xs hidden-sm">
+                        <div class="flexslider left">
+                            <ul class="slides">
+                           <li>     <!--Slide 1 -->
+                                <img src="./img/Avisos_importantes/2019/aseo.png">
+                                    <div class="meta">
+                                  <!--  <h1>Lorem ipsum dolor sit amet, consectetur.</h1>-->
+                                </div>
+                                </li>
+                                <li>   <!-- Slide 2 -->
+                             <img src="./img/Avisos_importantes/2019/camion.png">
+                                    <div class="meta">-->
+                                    <!-- <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                </div>
+                          </li>
+                          <li>  <!--    Slide 2 -->
+                                <img src="./img/Avisos_importantes/2019/carro.png">
+                                    <div class="meta">
+                                   <!--   <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                 </div>
+                                </li>
+                          <!--  <li>         Slide 3-->
+                              <!--   <img src="./img/Avisos_importantes/2019/juan.png">
+                                     <div class="meta">-->
+                               <!--  <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                 <!-- </div>                        
+                                </li>-->
+                               <li> <!-- Slide 4 -->
+                                 <img src="./img/Avisos_importantes/2019/ornato1.png">
+                                    <div class="meta">
+                                      <!---  <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2> -->
+                                    </div>
+                                </li>
+
+                                    <li><!-- Slide 7 -->
+                                    <img src="./img/Avisos_importantes/2019/sigue.png">
+                                    <div class="meta">
+                                       <!-- <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <h2>Lorem ipsum dolor sit.</h2>-->
+                                </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide de Avisos -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hidden-md hidden-lg section-heading">
+                            <h4>Avisos Importantes:</h4>
+                            <p align="center">Información Institucional</p>
+                            <div class="line-dec"></div>
+                        </div>
+                    </div>
+ <div class="col-md-12 hidden-md hidden-lg">
                         <div class="flexslider left">
                             <ul class="slides">
                            <li>     <!--Slide 1 -->
@@ -258,10 +341,6 @@
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Slide de Avisos -->
         <!-- Galeria -->
         <div id="portfolio" class="page-section">
             <div class="content-wrapper">
@@ -471,34 +550,47 @@
                         <div class="col-md-6">
                             <ul class="tabs clearfix" data-tabgroup="first-tab-group">
                                     <li><a href="#tab1" class="active">
+                                            <ul class="info-post">Con recursos propios adquisición de vehículos para llegar a todas nuestras comunidades de Araure .<br>
+                                              <li><i class="fa fa-user"></i>Prensa Alcaldía</li>
+                                              <li><i class="fa fa-calendar"></i>Junio 2019</li>
+                                          </ul>
+                                      </a></li>
+                                    <li><a href="#tab2" >
                                             <ul class="info-post">En el mes de Mayo fueron atendidos 4000 Araureñas y Araureños en materia de Bienestar y seguridad Social.<br>
                                               <li><i class="fa fa-user"></i>Prensa Alcaldía</li>
                                               <li><i class="fa fa-calendar"></i>Junio 2019</li>
                                           </ul>
                                       </a></li>
-                                    <li><a href="#tab2">
+                                    <li><a href="#tab3">
                                             <ul class="info-post">La Alcaldía de Araure continua ejecutando el plan de limpieza y mantenimiento de las principales avenidas del municipio.<br>
                                               <li><i class="fa fa-user"></i>Prensa Alcaldía</li>
                                               <li><i class="fa fa-calendar"></i>Junio 2019</li>
                                           </ul>
                                       </a></li>
-                                    <li><a href="#tab3">
+                                    <li><a href="#tab4">
                                             <ul class="info-post">La Alcaldía de Araure realiza mantenimiento de drenajes ante la llegada de las lluvias.<br>
                                               <li><i class="fa fa-user"></i>Prensa Alcaldía</li>
                                               <li><i class="fa fa-calendar"></i>Junio 2019</li>
                                           </ul>
                                       </a></li>
-                            	     <li><a href="#tab4">
-                                      <ul class="info-post">Seguimos trabajando, para darle al pueblo araureño una mejor atención pre hospitalaria.<br>
-                                        <li><i class="fa fa-user"></i>Prensa Alcaldía</li>
-                                        <li><i class="fa fa-calendar"></i>Marzo 2019</li>
-                                    </ul>
-                                </a></li>
                             </ul>
                         </div>
                           <div class="col-md-6">
                             <div id="first-tab-group" class="tabgroup">
                                     <div id="tab1">
+                                            <img src="img/fotonoticias/2019/autos/1.png"
+                                             alt="">
+                                            <div class="text-content">
+                                              <h4>Con recursos propios adquisición de vehículos para llegar a todas nuestras comunidades de Araure .</h4>
+                                                <ul class="info-post">
+                                                    <li><i class="fa fa-user"></i>Prensa Alcaldía</li>
+                                                    <li><i class="fa fa-calendar"></i>Junio 2019</li>
+                                                </ul>
+                                                <p align="justify">Con recursos propios adquisición de vehículos para llegar a todas nuestras comunidades de Araure  gracias a la gerencia del alcalde revolucionario Primitivo Cedeño en crisis económica los hijos de Chávez nos CRECEMOS    Leales siempre tiradores Nunca    VENCEREMOS</p>
+                                                <div class="primary-button"><a href="Nota_7.html">Continuar Leyendo</a></div>
+                                            </div>
+                             </div>
+                                    <div id="tab2">
                                             <img src="img/fotonoticias/2019/social/1.png"
                                              alt="">
                                             <div class="text-content">
@@ -511,7 +603,7 @@
                                                 <div class="primary-button"><a href="Nota_10.html">Continuar Leyendo</a></div>
                                             </div>
                              </div>
-                            <div id="tab2">
+                            <div id="tab3">
                                             <img src="img/fotonoticias/2019/avenidad/1.png"
                                              alt="">
                                             <div class="text-content">
@@ -524,7 +616,7 @@
                                                 <div class="primary-button"><a href="Nota_9.html">Continuar Leyendo</a></div>
                                             </div>
                              </div>
-                             <div id="tab3">
+                             <div id="tab4">
                                             <img src="img/fotonoticias/2019/bicentenaria/bicentenaria.jpeg"
                                              alt="">
                                             <div class="text-content">
