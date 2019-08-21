@@ -1348,7 +1348,7 @@ blockquote {
 .popup {
     background-color: #ffffff;
     color: #888888;
-    height: 412px;
+   /* height: 412px;*/
     left: 0%;
     padding: 12px;
     position: fixed;
