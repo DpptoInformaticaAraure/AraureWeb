@@ -206,7 +206,7 @@ Single slide style
 
 -------------------------------- */
 .cd-hero-slider li {
-  background-position: center center;
+  /*background-position: center center;*/
   background-size: cover;
   background-repeat: no-repeat;
 }
