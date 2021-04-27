@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	color:#fff;
+	font:600 16px/18px 'Open Sans',sans-serif;
+	background:url(FONDO.jpg) no-repeat center;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+	height: 100vh;
+	position:relative;
+	
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100vh;
+	position:absolute;
+	padding:20px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+
+.cnt{
+
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.est{
+	color: #00cfff;
+font-size: 20px;
+}
+
+.pp {
+	font-size: 12px;
+	padding: 10px;
+	color: #fff;
+}
+
+.pago {
+	font-size: 12px;
+	padding: 20px;
+	color: #e69c11d6;
+	font-style: italic;
+}
